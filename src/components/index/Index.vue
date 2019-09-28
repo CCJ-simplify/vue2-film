@@ -21,6 +21,7 @@
       </div>
     </div>
     <Loading v-if="pageStatus === 'loading'"/>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -37,6 +38,7 @@
   import Loading from '../common/Loading'
 
   import LazyLoader from '../../utils/LazyLoader'
+  import Footer from '../home/footer'
 
   export default {
     name: 'index',
@@ -45,7 +47,8 @@
       IndexList,
       MovieItem,
       CinemaItem,
-      Loading
+      Loading,
+      Footer,
     },
     data() {
       return {

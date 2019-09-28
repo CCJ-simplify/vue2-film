@@ -19,7 +19,7 @@
 
     data() {
       return {
-        title: '猫眼电影'
+        title: '电影票'
       }
     },
     methods: {
@@ -27,7 +27,7 @@
       //
       setTitle: function (title) {
 
-        title = title ? title : '猫眼电影';
+        title = title ? title : '电影票';
 
         document.title = title;
         this.title = title;

@@ -34,13 +34,13 @@
   background: #df2d2d;
   bottom: -.08rem;
   height: .08rem;
-  left: .225rem;
+  left: .0rem;
   /*Firefox*/
-  width: -moz-calc((100% - .45rem) / 2);
+  width: -moz-calc(50%);
   /*chrome safari*/
-  width: -webkit-calc((100% - .45rem) / 2);
+  width: -webkit-calc(50%);
   /*Standard */
-  width: calc((100% - .45rem) / 2);
+  width: calc(50%);
 
   transition: left .5s;
   -moz-transition: left .5s; /* Firefox 4 */
